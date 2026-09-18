@@ -1,13 +1,13 @@
 # Migração Firebase → Supabase
 
-Passo a passo, na ordem:
+O banco do Hub não é um projeto Supabase com login próprio em supabase.com — é o **Lovable Cloud** (backend nativo do Lovable, construído sobre Supabase), gerenciado inteiramente dentro do painel do projeto no Lovable. O Lovable Cloud já tem seu próprio SQL Editor, então todo o passo a passo abaixo é feito ali, sem precisar de nenhuma chave sensível (`service_role`).
 
-1. **Schema**: rodar, nesta ordem, no SQL Editor do Supabase (projeto do GAMA Hub):
-   - `001_add_codigo_column.sql` — adiciona a coluna `codigo` (SKU) em `casagama_produtos`.
-   - `002_decrementar_estoque_function.sql` — cria a função seguindo a qual o site público baixa 1 unidade de estoque no checkout, sem precisar de escrita direta na tabela.
-2. **Dados já extraídos**: `casagama_produtos.json` (92 produtos) e `casagama_categorias.json` (11 categorias) foram gerados a partir do Firestore de produção em 2026-09-18, com a correção do bug histórico de categoria com "/" (`Colares-Esculturas` → nome `Colares/Esculturas`, slug `colares-esculturas`).
-3. **Carga no Supabase**: rodar `migrate-to-supabase.ps1` com `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY` (a service_role, não a publishable) definidas como variável de ambiente. A service_role é necessária só para essa carga em massa única, porque ignora o RLS — não deve ser usada em nenhum outro lugar do site.
-4. Depois de confirmar os dados no Supabase, preencher `SUPABASE_URL` e `SUPABASE_PUBLISHABLE_KEY` no bloco de configuração de `index.html` e `admin.html` (valores de `VITE_SUPABASE_URL` / `VITE_SUPABASE_PUBLISHABLE_KEY` do `.env`).
-5. **Login do admin**: `admin.html` agora autentica com email/senha reais via Supabase Auth (usuário do Hub) — confirmar que a Mariane/Gabriela têm uma conta de usuário no projeto Supabase do Hub antes de testar.
+Passo a passo, na ordem, dentro do Lovable Cloud → aba **SQL editor**:
 
-`firestore-export.json` é o dump bruto do Firestore, mantido só para conferência/rollback caso algo precise ser reprocessado.
+1. Rodar `001_add_codigo_column.sql` — adiciona a coluna `codigo` (SKU) em `casagama_produtos`.
+2. Rodar `002_decrementar_estoque_function.sql` — cria a função que o site público usa pra baixar 1 unidade de estoque no checkout, sem precisar de escrita direta na tabela.
+3. Rodar `003_load_data.sql` — carrega as 11 categorias e os 92 produtos reais, extraídos do Firestore de produção em 2026-09-18, já com a correção do bug histórico de categoria com "/" (`Colares-Esculturas` → nome `Colares/Esculturas`, slug `colares-esculturas`). Os `on conflict ... do nothing` fazem o script ser seguro de rodar mais de uma vez sem duplicar nada.
+4. Pegar `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY` na aba **Secrets** do Lovable Cloud e preencher no bloco de configuração de `index.html` e `admin.html` (procurar por `COLOQUE_AQUI_...`).
+5. **Login do admin**: `admin.html` agora autentica com email/senha reais via Supabase Auth (usuário do Hub) — confirmar que a Mariane/Gabriela têm uma conta de usuário cadastrada antes de testar.
+
+`casagama_categorias.json` / `casagama_produtos.json` / `firestore-export.json` são os dados brutos e transformados, mantidos só para conferência/rollback caso algo precise ser reprocessado. `migrate-to-supabase.ps1` era uma alternativa via API REST (precisava da `service_role` key) para o caso de a Casa Gama migrar no futuro para um projeto Supabase independente do Lovable Cloud — não é necessário no caminho atual, mas fica guardado caso essa mudança estrutural aconteça.
