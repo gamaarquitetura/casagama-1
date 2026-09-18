@@ -1,0 +1,46 @@
+﻿[
+    {
+        "nome":  "Bandejas",
+        "slug":  "bandejas"
+    },
+    {
+        "nome":  "Caixas",
+        "slug":  "caixas"
+    },
+    {
+        "nome":  "Colares/Esculturas",
+        "slug":  "colares-esculturas"
+    },
+    {
+        "nome":  "Esculturas",
+        "slug":  "esculturas"
+    },
+    {
+        "nome":  "Esculturas Metal",
+        "slug":  "esculturas-metal"
+    },
+    {
+        "nome":  "Kits",
+        "slug":  "kits"
+    },
+    {
+        "nome":  "Kits Banheiro",
+        "slug":  "kits-banheiro"
+    },
+    {
+        "nome":  "Livros-caixa",
+        "slug":  "livros-caixa"
+    },
+    {
+        "nome":  "Organização",
+        "slug":  "organizacao"
+    },
+    {
+        "nome":  "Porta-retratos",
+        "slug":  "porta-retratos"
+    },
+    {
+        "nome":  "Vasos",
+        "slug":  "vasos"
+    }
+]

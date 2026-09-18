@@ -419,42 +419,32 @@
 <div class="toast" id="toast"></div>
 
 <!-- ============================================================
-     JAVASCRIPT — Firebase + Loja
+     JAVASCRIPT — Supabase + Loja
      ============================================================ -->
 <script type="module">
 
 // ----------------------------------------------------------
-// 0. Imports Firebase (CDN ESM)
+// 0. Import Supabase (CDN ESM)
 // ----------------------------------------------------------
-import { initializeApp }
-  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getFirestore, collection, doc, updateDoc,
-         query, orderBy, onSnapshot, serverTimestamp }
-  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 // ----------------------------------------------------------
 // 1. CONFIGURAÇÃO — edite apenas este bloco
+//    (valores vêm do .env do projeto: VITE_SUPABASE_URL e VITE_SUPABASE_PUBLISHABLE_KEY)
 // ----------------------------------------------------------
-const FIREBASE_CONFIG = {
-  apiKey:            "AIzaSyA8MjrgMnWV202EbpNSFS89sBmXHr5AffA",
-  authDomain:        "gamaarq.firebaseapp.com",
-  projectId:         "gamaarq",
-  storageBucket:     "gamaarq.firebasestorage.app",
-  messagingSenderId: "725535528813",
-  appId:             "1:725535528813:web:7c5f9fabca67b89d5a6c64"
-};
+const SUPABASE_URL             = "COLOQUE_AQUI_VITE_SUPABASE_URL";
+const SUPABASE_PUBLISHABLE_KEY = "COLOQUE_AQUI_VITE_SUPABASE_PUBLISHABLE_KEY";
 const WHATSAPP_NUMBER = "55996893350"; // Número da loja com DDI
 
 // ----------------------------------------------------------
 // 2. Inicialização
 // ----------------------------------------------------------
-const app = initializeApp(FIREBASE_CONFIG);
-const db  = getFirestore(app);
+const supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 
 // ----------------------------------------------------------
 // 3. Estado da aplicação
 // ----------------------------------------------------------
-let catalog        = [];  // todos os produtos carregados do Firestore
+let catalog        = [];  // todos os produtos ativos carregados do Supabase
 let cart           = [];  // itens no carrinho (sessão)
 let selectedPayment= '';
 let isGift         = false;
@@ -473,39 +463,51 @@ const MODAL_PAYMENTS = [
 ];
 
 // ----------------------------------------------------------
-// 4. FIREBASE — listener em tempo real
+// 4. SUPABASE — carrega produtos e escuta mudanças em tempo real
 //    Atualiza a loja automaticamente quando o admin muda algo
 // ----------------------------------------------------------
-function iniciarListenerProdutos() {
-  const q = query(collection(db, "produtos"), orderBy("code"));
+function mapRow(row) {
+  return { code: row.codigo, name: row.nome, category: row.categoria, price: row.preco, qty: row.quantidade_estoque, image: row.imagem_url };
+}
 
-  onSnapshot(q, (snap) => {
-    catalog = snap.docs.map(d => ({ firestoreId: d.id, ...d.data() }));
-    render();
-    // Esconder loading na primeira carga
-    const loading = document.getElementById('loadingScreen');
-    if (loading && !loading.classList.contains('hidden')) {
-      loading.classList.add('hidden');
-      setTimeout(() => loading.style.display = 'none', 400);
-    }
-  }, (err) => {
-    console.error("Erro ao carregar produtos:", err);
+async function carregarProdutos() {
+  const { data, error } = await supabase
+    .from("casagama_produtos")
+    .select("*")
+    .eq("ativo", true)
+    .order("codigo");
+
+  if (error) {
+    console.error("Erro ao carregar produtos:", error);
     document.getElementById('loadingScreen').innerHTML =
-      '<p style="color:#c0392b;font-size:12px;letter-spacing:1px;padding:20px;text-align:center">Erro ao conectar com o banco de dados.<br>Verifique a configuração do Firebase.</p>';
-  });
+      '<p style="color:#c0392b;font-size:12px;letter-spacing:1px;padding:20px;text-align:center">Erro ao conectar com o banco de dados.<br>Verifique a configuração do Supabase.</p>';
+    return;
+  }
+
+  catalog = data.map(mapRow);
+  render();
+  // Esconder loading na primeira carga
+  const loading = document.getElementById('loadingScreen');
+  if (loading && !loading.classList.contains('hidden')) {
+    loading.classList.add('hidden');
+    setTimeout(() => loading.style.display = 'none', 400);
+  }
+}
+
+function iniciarListenerProdutos() {
+  carregarProdutos();
+  supabase
+    .channel('produtos-loja')
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'casagama_produtos' }, () => carregarProdutos())
+    .subscribe();
 }
 
 // ----------------------------------------------------------
-// 5. FIREBASE — baixar estoque ao finalizar pedido
+// 5. SUPABASE — baixar estoque ao finalizar pedido
+//    (via função RPC segura — o site público não tem escrita direta na tabela)
 // ----------------------------------------------------------
 async function baixarEstoque() {
-  const promises = cart.map(async (item) => {
-    const p = catalog.find(x => x.code === item.code);
-    if (p && p.qty > 0) {
-      const ref = doc(db, "produtos", item.code);
-      await updateDoc(ref, { qty: p.qty - 1, atualizadoEm: serverTimestamp() });
-    }
-  });
+  const promises = cart.map(item => supabase.rpc('decrementar_estoque', { p_codigo: item.code }));
   await Promise.all(promises);
 }
 

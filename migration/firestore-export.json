@@ -1,0 +1,2725 @@
+﻿{
+    "produtos":  [
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-BD-001",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17557.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:06:35.243Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  95.05
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Bandejas"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Bandeja em Cerâmica"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-BD-001"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:06:35.274180Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-BD-002",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Bandeja em Fibra Natural"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Bandejas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19296_1.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-BD-002"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  199.78
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:08.937Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.094137Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-BD-003",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Bandeja em Polirresina"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-BD-003"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-08-20T14:12:34.068Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Bandejas"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20175.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  177.57
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-08-20T14:12:34.227109Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-BD-004",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-BD-004"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Centro de Mesa em Polirresina"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.100Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Bandejas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  214.65
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/elementor/thumbs/20351-r0spih0oxc73crg3fqhdbnfh61tshu2cldanttatuc.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.157910Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-BD-005",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21233-3.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  128.13
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Bandejas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Bandeja em Mármore"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-BD-005"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-09T20:47:03.955Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-09T20:47:04.140233Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CO-001",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.341Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Colares-Esculturas"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/15130-4.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  66.33
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Colar Decorativo em Madeira"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-CO-001"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.347883Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CO-002",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-CO-002"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  55.24
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.353Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18557.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Colar Decorativo Madeira - P"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Colares-Esculturas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.360730Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CO-003",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Colar Decorativo Madeira - M"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20715.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-CO-003"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  66.33
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Colares-Esculturas"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T02:50:32.859Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T02:50:32.891460Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-001",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18226_KIT.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Kit Caixas MDF/PU - 2 Pcs"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  191.47
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.691Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-001"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.732349Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-002",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T02:51:52.314Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Caixa em Polirresina"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-002"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18903_1.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  78.75
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T02:51:52.360186Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-003",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-10T16:29:27.685Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20667.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Caixa MDF/PU - P"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  103.46
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-003"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-10T16:29:27.703339Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-004",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  133.11
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20668.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.164Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-004"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Caixa MDF/PU - M"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.171526Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-005",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:10:53.423Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  102.83
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20690.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-005"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Caixa MDF/PU - P2"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:10:53.430803Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-006",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20691.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  111.48
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Caixa MDF/PU - M2"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:10:53.436Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-006"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:10:53.473033Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-CX-007",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Caixas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  91.11
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20787.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T02:55:42.153Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-CX-007"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Caixa MDF/PU - P3"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T02:55:42.190083Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-EM-001",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  157.82
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18377.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-EM-001"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.738Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas Metal"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Escultura em Metal - G"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.787507Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-EM-002",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  81.84
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18915_1.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-EM-002"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas Metal"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.704Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Escultura em Metal - P"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.733177Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-EM-003",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  89.85
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.793Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas Metal"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19898.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-EM-003"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Asterisco em Metal"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.800938Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-EM-004",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21284-3.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas Metal"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  152.85
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:03:09.571Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Corrente em Metal"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-EM-004"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:03:09.613651Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-001",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  91.05
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16358-1.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-08-20T14:14:57.452Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-001"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Lupa em Polirresina"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-08-20T14:14:57.504704Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-002",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-002"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Ouriço Polirresina"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  72.51
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.805Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17472.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.813758Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-003",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  140.49
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17503.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:06:27.888Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-003"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Elos Polirresina - G"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:06:27.929543Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-004",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-004"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Busto Polirresina"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  128.13
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:38:05.785Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17708.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:38:05.825046Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-005",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-005"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura em Polirresina"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  124.46
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17710.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:13:30.617Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:13:30.649217Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-006",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-006"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Mulher Polirresina - P"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-09T20:47:04.146Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  78.69
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18385.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-09T20:47:04.175928Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-007",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:09:09.145Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18920_1.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Corrente Rattan"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  152.85
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-007"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:09:09.176595Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-008",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Elos Polirresina - P"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.819Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18929_1.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-008"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  60.21
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.845215Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-009",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  128.71
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19470_1.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-08-20T14:15:23.633Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-009"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Nó em Vidro"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-08-20T14:15:23.667544Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-010",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  140.49
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-010"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19487_1-300x300.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:38:05.873Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Aparadores de Livros Polirresina"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:38:05.894Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-011",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-011"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  66.38
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Face Polirresina - P"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20125.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.803Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.832504Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-012",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-012"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T04:05:03.507Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Face Polirresina - M"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  96.04
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20126.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T04:05:03.548760Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-013",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20930.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.892Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  76.29
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Face Polirresina - G"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-013"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.900820Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-014",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  146.67
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21024-3.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-014"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Mulher Polirresina - G"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-26T16:26:59.684Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-26T16:26:59.841018Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-015",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:38:05.899Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21331-3.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Pessoa Polirresina - A"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  121.95
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-015"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:38:05.939186Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-016",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Escultura Pessoa Polirresina - B"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21332-3.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  121.95
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-016"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.906Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.912693Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-017",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Escultura Pessoas Polirresina"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T04:03:35.097Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-017"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21563-3.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  165.21
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T04:03:35.110282Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-018",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-018"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Pessoa Polirresina - C"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:20:52.133Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  140.49
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21763.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:20:52.170214Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-ES-019",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-ES-019"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Escultura Pessoa Polirresina - D"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:21:36.920Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Esculturas"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  121.95
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21764.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:21:36.959401Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KB-001",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-KB-001"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Kit Cimento Banheiro - 4 Pcs"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:22:22.021Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Kits Banheiro"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  205.71
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18357_KIT.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:22:22.061785Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KB-002",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21769.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Kits Banheiro"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  140.56
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:23:02.633Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Kit Cerâmica Banheiro - 3 Pcs"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-KB-002"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:23:02.666043Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-001",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Kit Ampulhetas Vidro 3 Pcs - A"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-09T20:47:04.181Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-001"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18336.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  91.05
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-09T20:47:04.186124Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-002",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.739Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  91.05
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18739_KIT.jpg"
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-002"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Kit Ampulhetas Vidro 3 Pcs - B"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.745041Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-003",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19661.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  78.69
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-08-20T14:16:22.213Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Kit Minivasos Vidro 3 Pcs - A"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-003"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-08-20T14:16:22.252691Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-004",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  62.67
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19665.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.176Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-004"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Kit Minivasos Vidro 3 Pcs - B"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.217681Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-005",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T04:02:53.582Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19944.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  251.73
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Kit Bandejas Metal - 2 Pcs"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-005"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T04:02:53.623318Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-006",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Kit Vasos Cerâmica 3 Pcs - A"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21441.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.223Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  227.01
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-006"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.263333Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-KT-017",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-KT-017"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  202.29
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Kit Vasos Cerâmica 3 Pcs - B"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/22425_00-1.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.917Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Kits"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T03:27:52.873175Z",
+                         "updateTime":  "2026-06-27T18:44:44.925075Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-001",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - P"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-001"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:38:05.945Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13592-4.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  103.41
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:38:05.974613Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-002",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - M"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-002"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13593-4.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  103.41
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:38:05.831Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:38:05.867504Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-003",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - G"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-003"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13594-4.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.760Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  109.59
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.786969Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-004",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-004"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  103.41
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.750Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13595-4.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - GG"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.755772Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-005",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-005"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.269Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - PP"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  91.05
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16698.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.277001Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-006",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-006"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/Linho - XG"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  115.77
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.282Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16699.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.288930Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-007",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/PU - P"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-007"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.929Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20744.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  103.41
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.936874Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-LC-008",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20745.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.942Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  115.77
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Livro-Caixa MDF/PU - M"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Livros-caixa"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-LC-008"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.951366Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-OR-001",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Organização"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19536_1.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Lixeira MDF/PU - 11 Litros"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  276.45
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-OR-001"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:37:21.073Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:37:21.119338Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-OR-002",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Organização"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21258-3.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Lixeira em Madeira - 10 Litros"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  253.09
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:38:22.518Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-OR-002"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:38:22.529731Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-001",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  68.73
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13061-4.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.294Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "2"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-001"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato em MDF - 20x25"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.300964Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-002",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  48.22
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17631.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T13:17:26.203Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-002"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato Poliest./Vidro 15x20"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T13:17:26.239926Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-003",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - A"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:17:48.801Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-003"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19238_1.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  46.48
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:17:48.834304Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-004",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-004"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  56.26
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19240_1.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 20x25 - A"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:42:44.140Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:42:44.170309Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-005",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-005"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  50.24
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.956Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20639.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - B"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.964908Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-006",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 15x20 - B"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-006"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.969Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20640.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  54.43
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:44.978117Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-007",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:44:44.058Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20641.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - C"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  41.94
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-007"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:44:44.092495Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-008",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-008"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 15x20 - C"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:45:20.136Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  48.57
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20642.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:45:20.174883Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-009",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "2"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  53.78
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:44.983Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20694-1.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-009"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - D"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:45.035408Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-010",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-010"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  60.79
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 15x20 - D"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20695-1.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:45.040Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:45.047737Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-011",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - E"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21040-3.jpg"
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T15:43:04.434Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  53.81
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-011"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "3"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T15:43:04.470603Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-012",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21041-3.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  60.79
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 15x20 - E"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-012"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:47:55.593Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:47:55.612661Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-013",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21044-3.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  53.81
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:48:30.647Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 10x15 - F"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-013"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:48:30.682245Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-014",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-014"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "4"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  60.79
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:49:43.015Z"
+                                                         },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21045-3.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato 15x20 - F"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:49:43.053635Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-PR-015",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:50:30.392Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Porta-retratos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21293-3.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Porta-Retrato Duplo Madeira 10x15"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  115.77
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-PR-015"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:50:30.422642Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-001",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17332.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  78.75
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:51:12.505Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - P"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-001"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:51:12.537997Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-002",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17738.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  56.26
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Mini"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-002"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:51:52.860Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:51:52.914932Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-003",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18388_1.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  68.22
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Polirresina - P"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:10:53.347Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-003"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:10:53.366643Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-004",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18389_1.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "price":  {
+                                                      "doubleValue":  76.87
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:10:53.377Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Polirresina - M"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-004"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:10:53.416921Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-005",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  101.01
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18551.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-005"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.792Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - M"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.797890Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-006",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18553.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  103.47
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-10T16:29:27.635Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - G"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-006"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-10T16:29:27.679045Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-007",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Cônico"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18692.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  88.65
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T03:54:33.675Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-007"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T03:54:33.715787Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-008",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18691.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Alto"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  91.11
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-008"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-19T19:33:13.437Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-19T19:33:13.476555Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-009",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Transp. G"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-009"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19622.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  125.71
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:11:45.053Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:11:45.087943Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-010",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19623-300x300.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  75.66
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Transp. P"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:10:55.993Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-010"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:10:56.034886Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-011",
+                         "fields":  {
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-011"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Âmbar G"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-06-27T18:44:45.052Z"
+                                                         },
+                                        "price":  {
+                                                      "doubleValue":  150.41
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19669.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-06-27T18:44:45.060137Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-012",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19670.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  193.67
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Âmbar GG"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-012"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.336Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.492732Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-013",
+                         "fields":  {
+                                        "price":  {
+                                                      "doubleValue":  98.5
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19773.jpg"
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.498Z"
+                                                         },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-013"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Fumê P"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.539228Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-014",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  115.81
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-014"
+                                                 },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19774.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Fumê M"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-07-29T16:10:33.545Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-07-29T16:10:33.698591Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-015",
+                         "fields":  {
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  81.33
+                                                  },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19799_2-300x300.jpg"
+                                                  },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-015"
+                                                 },
+                                        "name":  {
+                                                     "stringValue":  "Pote Decorativo em Cerâmica"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:11:57.334Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:11:57.351922Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-016",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19818.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  88.63
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "1"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Vidro - Cilíndrico"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-016"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-19T19:32:52.823Z"
+                                                         }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-19T19:32:52.860549Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-017",
+                         "fields":  {
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Cerâmica - G"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-017"
+                                                 },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.317Z"
+                                                         },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19846.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  129.45
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.323663Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-018",
+                         "fields":  {
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.329Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19847.jpg"
+                                                  },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Cerâmica - M"
+                                                 },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "price":  {
+                                                      "doubleValue":  110.91
+                                                  },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-018"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.336017Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-019",
+                         "fields":  {
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-019"
+                                                 },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-09-08T15:51:09.306Z"
+                                                         },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Cerâmica - P Terracota"
+                                                 },
+                                        "price":  {
+                                                      "doubleValue":  75.66
+                                                  },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19920.jpg"
+                                                  }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-09-08T15:51:09.312499Z"
+                     },
+                     {
+                         "name":  "projects/gamaarq/databases/(default)/documents/produtos/CG-VA-020",
+                         "fields":  {
+                                        "image":  {
+                                                      "stringValue":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19921.jpg"
+                                                  },
+                                        "price":  {
+                                                      "doubleValue":  75.66
+                                                  },
+                                        "atualizadoEm":  {
+                                                             "timestampValue":  "2026-05-01T16:12:45.470Z"
+                                                         },
+                                        "category":  {
+                                                         "stringValue":  "Vasos"
+                                                     },
+                                        "qty":  {
+                                                    "integerValue":  "0"
+                                                },
+                                        "name":  {
+                                                     "stringValue":  "Vaso em Cerâmica - P Bege"
+                                                 },
+                                        "code":  {
+                                                     "stringValue":  "CG-VA-020"
+                                                 }
+                                    },
+                         "createTime":  "2026-05-01T01:36:57.774911Z",
+                         "updateTime":  "2026-05-01T16:12:45.507751Z"
+                     }
+                 ],
+    "categorias":  [
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Bandejas",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Bandejas"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Caixas",
+                           "fields":  {
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       },
+                                          "nome":  {
+                                                       "stringValue":  "Caixas"
+                                                   }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Colares-Esculturas",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Colares-Esculturas"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Esculturas",
+                           "fields":  {
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       },
+                                          "nome":  {
+                                                       "stringValue":  "Esculturas"
+                                                   }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Esculturas Metal",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Esculturas Metal"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Kits",
+                           "fields":  {
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       },
+                                          "nome":  {
+                                                       "stringValue":  "Kits"
+                                                   }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Kits Banheiro",
+                           "fields":  {
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       },
+                                          "nome":  {
+                                                       "stringValue":  "Kits Banheiro"
+                                                   }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Livros-caixa",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Livros-caixa"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Organização",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Organização"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Porta-retratos",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Porta-retratos"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       },
+                       {
+                           "name":  "projects/gamaarq/databases/(default)/documents/categorias/Vasos",
+                           "fields":  {
+                                          "nome":  {
+                                                       "stringValue":  "Vasos"
+                                                   },
+                                          "criadoEm":  {
+                                                           "timestampValue":  "2026-05-01T01:36:57.301Z"
+                                                       }
+                                      },
+                           "createTime":  "2026-05-01T01:36:57.774911Z",
+                           "updateTime":  "2026-05-01T01:36:57.774911Z"
+                       }
+                   ]
+}

@@ -1,0 +1,922 @@
+﻿[
+    {
+        "codigo":  "CG-BD-001",
+        "nome":  "Bandeja em Cerâmica",
+        "categoria":  "Bandejas",
+        "preco":  95.05,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17557.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-BD-002",
+        "nome":  "Bandeja em Fibra Natural",
+        "categoria":  "Bandejas",
+        "preco":  199.78,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19296_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-BD-003",
+        "nome":  "Bandeja em Polirresina",
+        "categoria":  "Bandejas",
+        "preco":  177.57,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20175.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-BD-004",
+        "nome":  "Centro de Mesa em Polirresina",
+        "categoria":  "Bandejas",
+        "preco":  214.65,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/elementor/thumbs/20351-r0spih0oxc73crg3fqhdbnfh61tshu2cldanttatuc.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-BD-005",
+        "nome":  "Bandeja em Mármore",
+        "categoria":  "Bandejas",
+        "preco":  128.13,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21233-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CO-001",
+        "nome":  "Colar Decorativo em Madeira",
+        "categoria":  "Colares/Esculturas",
+        "preco":  66.33,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/15130-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CO-002",
+        "nome":  "Colar Decorativo Madeira - P",
+        "categoria":  "Colares/Esculturas",
+        "preco":  55.24,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18557.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CO-003",
+        "nome":  "Colar Decorativo Madeira - M",
+        "categoria":  "Colares/Esculturas",
+        "preco":  66.33,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20715.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-001",
+        "nome":  "Kit Caixas MDF/PU - 2 Pcs",
+        "categoria":  "Caixas",
+        "preco":  191.47,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18226_KIT.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-002",
+        "nome":  "Caixa em Polirresina",
+        "categoria":  "Caixas",
+        "preco":  78.75,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18903_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-003",
+        "nome":  "Caixa MDF/PU - P",
+        "categoria":  "Caixas",
+        "preco":  103.46,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20667.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-004",
+        "nome":  "Caixa MDF/PU - M",
+        "categoria":  "Caixas",
+        "preco":  133.11,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20668.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-005",
+        "nome":  "Caixa MDF/PU - P2",
+        "categoria":  "Caixas",
+        "preco":  102.83,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20690.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-006",
+        "nome":  "Caixa MDF/PU - M2",
+        "categoria":  "Caixas",
+        "preco":  111.48,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20691.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-CX-007",
+        "nome":  "Caixa MDF/PU - P3",
+        "categoria":  "Caixas",
+        "preco":  91.11,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20787.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-EM-001",
+        "nome":  "Escultura em Metal - G",
+        "categoria":  "Esculturas Metal",
+        "preco":  157.82,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18377.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-EM-002",
+        "nome":  "Escultura em Metal - P",
+        "categoria":  "Esculturas Metal",
+        "preco":  81.84,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18915_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-EM-003",
+        "nome":  "Escultura Asterisco em Metal",
+        "categoria":  "Esculturas Metal",
+        "preco":  89.85,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19898.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-EM-004",
+        "nome":  "Escultura Corrente em Metal",
+        "categoria":  "Esculturas Metal",
+        "preco":  152.85,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21284-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-001",
+        "nome":  "Lupa em Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  91.05,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16358-1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-002",
+        "nome":  "Escultura Ouriço Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  72.51,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17472.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-003",
+        "nome":  "Escultura Elos Polirresina - G",
+        "categoria":  "Esculturas",
+        "preco":  140.49,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17503.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-004",
+        "nome":  "Escultura Busto Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  128.13,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17708.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-005",
+        "nome":  "Escultura em Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  124.46,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17710.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-006",
+        "nome":  "Escultura Mulher Polirresina - P",
+        "categoria":  "Esculturas",
+        "preco":  78.69,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18385.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-007",
+        "nome":  "Escultura Corrente Rattan",
+        "categoria":  "Esculturas",
+        "preco":  152.85,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18920_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-008",
+        "nome":  "Escultura Elos Polirresina - P",
+        "categoria":  "Esculturas",
+        "preco":  60.21,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18929_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-009",
+        "nome":  "Escultura Nó em Vidro",
+        "categoria":  "Esculturas",
+        "preco":  128.71,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19470_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-010",
+        "nome":  "Aparadores de Livros Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  140.49,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19487_1-300x300.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-011",
+        "nome":  "Escultura Face Polirresina - P",
+        "categoria":  "Esculturas",
+        "preco":  66.38,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20125.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-012",
+        "nome":  "Escultura Face Polirresina - M",
+        "categoria":  "Esculturas",
+        "preco":  96.04,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20126.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-013",
+        "nome":  "Escultura Face Polirresina - G",
+        "categoria":  "Esculturas",
+        "preco":  76.29,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20930.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-014",
+        "nome":  "Escultura Mulher Polirresina - G",
+        "categoria":  "Esculturas",
+        "preco":  146.67,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21024-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-015",
+        "nome":  "Escultura Pessoa Polirresina - A",
+        "categoria":  "Esculturas",
+        "preco":  121.95,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21331-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-016",
+        "nome":  "Escultura Pessoa Polirresina - B",
+        "categoria":  "Esculturas",
+        "preco":  121.95,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21332-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-017",
+        "nome":  "Escultura Pessoas Polirresina",
+        "categoria":  "Esculturas",
+        "preco":  165.21,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21563-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-018",
+        "nome":  "Escultura Pessoa Polirresina - C",
+        "categoria":  "Esculturas",
+        "preco":  140.49,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21763.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-ES-019",
+        "nome":  "Escultura Pessoa Polirresina - D",
+        "categoria":  "Esculturas",
+        "preco":  121.95,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21764.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KB-001",
+        "nome":  "Kit Cimento Banheiro - 4 Pcs",
+        "categoria":  "Kits Banheiro",
+        "preco":  205.71,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18357_KIT.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KB-002",
+        "nome":  "Kit Cerâmica Banheiro - 3 Pcs",
+        "categoria":  "Kits Banheiro",
+        "preco":  140.56,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21769.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-001",
+        "nome":  "Kit Ampulhetas Vidro 3 Pcs - A",
+        "categoria":  "Kits",
+        "preco":  91.05,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18336.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-002",
+        "nome":  "Kit Ampulhetas Vidro 3 Pcs - B",
+        "categoria":  "Kits",
+        "preco":  91.05,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/02/18739_KIT.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-003",
+        "nome":  "Kit Minivasos Vidro 3 Pcs - A",
+        "categoria":  "Kits",
+        "preco":  78.69,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19661.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-004",
+        "nome":  "Kit Minivasos Vidro 3 Pcs - B",
+        "categoria":  "Kits",
+        "preco":  62.67,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19665.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-005",
+        "nome":  "Kit Bandejas Metal - 2 Pcs",
+        "categoria":  "Kits",
+        "preco":  251.73,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19944.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-006",
+        "nome":  "Kit Vasos Cerâmica 3 Pcs - A",
+        "categoria":  "Kits",
+        "preco":  227.01,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/21441.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-KT-017",
+        "nome":  "Kit Vasos Cerâmica 3 Pcs - B",
+        "categoria":  "Kits",
+        "preco":  202.29,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2026/02/22425_00-1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-001",
+        "nome":  "Livro-Caixa MDF/Linho - P",
+        "categoria":  "Livros-caixa",
+        "preco":  103.41,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13592-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-002",
+        "nome":  "Livro-Caixa MDF/Linho - M",
+        "categoria":  "Livros-caixa",
+        "preco":  103.41,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13593-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-003",
+        "nome":  "Livro-Caixa MDF/Linho - G",
+        "categoria":  "Livros-caixa",
+        "preco":  109.59,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13594-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-004",
+        "nome":  "Livro-Caixa MDF/Linho - GG",
+        "categoria":  "Livros-caixa",
+        "preco":  103.41,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13595-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-005",
+        "nome":  "Livro-Caixa MDF/Linho - PP",
+        "categoria":  "Livros-caixa",
+        "preco":  91.05,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16698.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-006",
+        "nome":  "Livro-Caixa MDF/Linho - XG",
+        "categoria":  "Livros-caixa",
+        "preco":  115.77,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/16699.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-007",
+        "nome":  "Livro-Caixa MDF/PU - P",
+        "categoria":  "Livros-caixa",
+        "preco":  103.41,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20744.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-LC-008",
+        "nome":  "Livro-Caixa MDF/PU - M",
+        "categoria":  "Livros-caixa",
+        "preco":  115.77,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20745.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-OR-001",
+        "nome":  "Lixeira MDF/PU - 11 Litros",
+        "categoria":  "Organização",
+        "preco":  276.45,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19536_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-OR-002",
+        "nome":  "Lixeira em Madeira - 10 Litros",
+        "categoria":  "Organização",
+        "preco":  253.09,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21258-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-001",
+        "nome":  "Porta-Retrato em MDF - 20x25",
+        "categoria":  "Porta-retratos",
+        "preco":  68.73,
+        "quantidade_estoque":  2,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/13061-4.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-002",
+        "nome":  "Porta-Retrato Poliest./Vidro 15x20",
+        "categoria":  "Porta-retratos",
+        "preco":  48.22,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17631.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-003",
+        "nome":  "Porta-Retrato 10x15 - A",
+        "categoria":  "Porta-retratos",
+        "preco":  46.48,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19238_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-004",
+        "nome":  "Porta-Retrato 20x25 - A",
+        "categoria":  "Porta-retratos",
+        "preco":  56.26,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/19240_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-005",
+        "nome":  "Porta-Retrato 10x15 - B",
+        "categoria":  "Porta-retratos",
+        "preco":  50.24,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20639.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-006",
+        "nome":  "Porta-Retrato 15x20 - B",
+        "categoria":  "Porta-retratos",
+        "preco":  54.43,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20640.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-007",
+        "nome":  "Porta-Retrato 10x15 - C",
+        "categoria":  "Porta-retratos",
+        "preco":  41.94,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20641.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-008",
+        "nome":  "Porta-Retrato 15x20 - C",
+        "categoria":  "Porta-retratos",
+        "preco":  48.57,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20642.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-009",
+        "nome":  "Porta-Retrato 10x15 - D",
+        "categoria":  "Porta-retratos",
+        "preco":  53.78,
+        "quantidade_estoque":  2,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20694-1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-010",
+        "nome":  "Porta-Retrato 15x20 - D",
+        "categoria":  "Porta-retratos",
+        "preco":  60.79,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/20695-1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-011",
+        "nome":  "Porta-Retrato 10x15 - E",
+        "categoria":  "Porta-retratos",
+        "preco":  53.81,
+        "quantidade_estoque":  3,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21040-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-012",
+        "nome":  "Porta-Retrato 15x20 - E",
+        "categoria":  "Porta-retratos",
+        "preco":  60.79,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21041-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-013",
+        "nome":  "Porta-Retrato 10x15 - F",
+        "categoria":  "Porta-retratos",
+        "preco":  53.81,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21044-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-014",
+        "nome":  "Porta-Retrato 15x20 - F",
+        "categoria":  "Porta-retratos",
+        "preco":  60.79,
+        "quantidade_estoque":  4,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21045-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-PR-015",
+        "nome":  "Porta-Retrato Duplo Madeira 10x15",
+        "categoria":  "Porta-retratos",
+        "preco":  115.77,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/07/21293-3.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-001",
+        "nome":  "Vaso em Vidro - P",
+        "categoria":  "Vasos",
+        "preco":  78.75,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17332.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-002",
+        "nome":  "Vaso em Vidro - Mini",
+        "categoria":  "Vasos",
+        "preco":  56.26,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/17738.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-003",
+        "nome":  "Vaso em Polirresina - P",
+        "categoria":  "Vasos",
+        "preco":  68.22,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18388_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-004",
+        "nome":  "Vaso em Polirresina - M",
+        "categoria":  "Vasos",
+        "preco":  76.87,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/07/18389_1.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-005",
+        "nome":  "Vaso em Vidro - M",
+        "categoria":  "Vasos",
+        "preco":  101.01,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18551.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-006",
+        "nome":  "Vaso em Vidro - G",
+        "categoria":  "Vasos",
+        "preco":  103.47,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18553.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-007",
+        "nome":  "Vaso em Vidro - Cônico",
+        "categoria":  "Vasos",
+        "preco":  88.65,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18692.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-008",
+        "nome":  "Vaso em Vidro - Alto",
+        "categoria":  "Vasos",
+        "preco":  91.11,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2024/03/18691.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-009",
+        "nome":  "Vaso em Vidro - Transp. G",
+        "categoria":  "Vasos",
+        "preco":  125.71,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19622.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-010",
+        "nome":  "Vaso em Vidro - Transp. P",
+        "categoria":  "Vasos",
+        "preco":  75.66,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19623-300x300.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-011",
+        "nome":  "Vaso em Vidro - Âmbar G",
+        "categoria":  "Vasos",
+        "preco":  150.41,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19669.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-012",
+        "nome":  "Vaso em Vidro - Âmbar GG",
+        "categoria":  "Vasos",
+        "preco":  193.67,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19670.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-013",
+        "nome":  "Vaso em Vidro - Fumê P",
+        "categoria":  "Vasos",
+        "preco":  98.5,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19773.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-014",
+        "nome":  "Vaso em Vidro - Fumê M",
+        "categoria":  "Vasos",
+        "preco":  115.81,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19774.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-015",
+        "nome":  "Pote Decorativo em Cerâmica",
+        "categoria":  "Vasos",
+        "preco":  81.33,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19799_2-300x300.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-016",
+        "nome":  "Vaso em Vidro - Cilíndrico",
+        "categoria":  "Vasos",
+        "preco":  88.63,
+        "quantidade_estoque":  1,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19818.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-017",
+        "nome":  "Vaso em Cerâmica - G",
+        "categoria":  "Vasos",
+        "preco":  129.45,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19846.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-018",
+        "nome":  "Vaso em Cerâmica - M",
+        "categoria":  "Vasos",
+        "preco":  110.91,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19847.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-019",
+        "nome":  "Vaso em Cerâmica - P Terracota",
+        "categoria":  "Vasos",
+        "preco":  75.66,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19920.jpg",
+        "ativo":  true
+    },
+    {
+        "codigo":  "CG-VA-020",
+        "nome":  "Vaso em Cerâmica - P Bege",
+        "categoria":  "Vasos",
+        "preco":  75.66,
+        "quantidade_estoque":  0,
+        "descricao":  "",
+        "imagem_url":  "https://areadocliente.martcollection.com.br/wp-content/uploads/2025/01/19921.jpg",
+        "ativo":  true
+    }
+]

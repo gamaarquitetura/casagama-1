@@ -189,8 +189,8 @@
     <div class="login-sub">Curated Living</div>
     <h2 class="login-title">Área Restrita</h2>
     <div class="login-field">
-      <label class="login-label">Usuário</label>
-      <input class="login-input" id="loginUser" type="text" placeholder="seu usuário" autocomplete="username">
+      <label class="login-label">Email do Hub</label>
+      <input class="login-input" id="loginUser" type="email" placeholder="seu@email.com" autocomplete="username">
     </div>
     <div class="login-field">
       <label class="login-label">Senha</label>
@@ -284,29 +284,12 @@
       <!-- CONFIGURAÇÕES -->
       <div class="section" id="section-configuracoes">
         <div class="config-card">
+          <div class="config-card-title">Conta</div>
+          <p style="font-size:11px;color:var(--muted);line-height:1.6;">Conectado como <strong id="accountEmail">—</strong>, autenticado pelo GAMA Hub.<br>Para trocar a senha ou gerenciar o acesso, use as configurações de conta do Hub.</p>
+        </div>
+        <div class="config-card">
           <div class="config-card-title">WhatsApp da Loja</div>
-          <div class="form-field" style="margin-bottom:14px;">
-            <label class="form-label">Número com DDI (ex: 5555996893350)</label>
-            <input class="form-input" id="waNumber" type="text" placeholder="5555996893350">
-          </div>
-          <button class="btn btn-primary" onclick="saveWa()">Salvar</button>
-        </div>
-        <div class="config-card">
-          <div class="config-card-title">Alterar Senha do Admin</div>
-          <div class="form-field" style="margin-bottom:14px;">
-            <label class="form-label">Nova Senha</label>
-            <input class="form-input" id="newPass" type="password" placeholder="Mínimo 6 caracteres">
-          </div>
-          <div class="form-field" style="margin-bottom:14px;">
-            <label class="form-label">Confirmar Nova Senha</label>
-            <input class="form-input" id="confirmPass" type="password">
-          </div>
-          <button class="btn btn-primary" onclick="changePassword()">Alterar Senha</button>
-        </div>
-        <div class="config-card">
-          <div class="config-card-title">Importar Catálogo Padrão</div>
-          <p style="font-size:11px;color:var(--muted);margin-bottom:16px;line-height:1.6;">Carrega os 88 produtos originais da Casa Gama no Firestore. Use apenas se o banco estiver vazio.</p>
-          <button class="btn btn-outline" id="importBtn" onclick="importDefaultCatalog()">Importar catálogo padrão</button>
+          <p style="font-size:11px;color:var(--muted);line-height:1.6;">O número usado no checkout é definido diretamente no código do site (<code>index.html</code>), não neste painel.</p>
         </div>
       </div>
 
@@ -380,42 +363,26 @@
 <div class="toast" id="toast"></div>
 
 <!-- ============================================================
-     JAVASCRIPT — Firebase Admin
+     JAVASCRIPT — Supabase Admin
      ============================================================ -->
 <script type="module">
 
 // ----------------------------------------------------------
-// 0. Imports Firebase
+// 0. Import Supabase (CDN ESM)
 // ----------------------------------------------------------
-import { initializeApp }
-  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getFirestore, collection, doc,
-         setDoc, updateDoc, deleteDoc,
-         query, orderBy, onSnapshot,
-         serverTimestamp, writeBatch, getDocs }
-  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 // ----------------------------------------------------------
 // 1. CONFIGURAÇÃO — edite apenas este bloco
+//    (valores vêm do .env do projeto: VITE_SUPABASE_URL e VITE_SUPABASE_PUBLISHABLE_KEY)
 // ----------------------------------------------------------
-const FIREBASE_CONFIG = {
-  apiKey:            "AIzaSyA8MjrgMnWV202EbpNSFS89sBmXHr5AffA",
-  authDomain:        "gamaarq.firebaseapp.com",
-  projectId:         "gamaarq",
-  storageBucket:     "gamaarq.firebasestorage.app",
-  messagingSenderId: "725535528813",
-  appId:             "1:725535528813:web:7c5f9fabca67b89d5a6c64"
-};
-
-// Credenciais do painel — altere antes de publicar
-const ADMIN_USER = "casagama";
-let   ADMIN_PASS = "gama2024";
+const SUPABASE_URL             = "COLOQUE_AQUI_VITE_SUPABASE_URL";
+const SUPABASE_PUBLISHABLE_KEY = "COLOQUE_AQUI_VITE_SUPABASE_PUBLISHABLE_KEY";
 
 // ----------------------------------------------------------
 // 2. Inicialização
 // ----------------------------------------------------------
-const app = initializeApp(FIREBASE_CONFIG);
-const db  = getFirestore(app);
+const supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 
 // ----------------------------------------------------------
 // 3. Estado
@@ -425,27 +392,27 @@ let categories = [];
 let editingCode = null;
 let editingImage = '';
 let adminFilter = 'TODOS';
-let unsubProdutos   = null;
-let unsubCategorias = null;
+let realtimeChannel = null;
 
 // ----------------------------------------------------------
-// 4. AUTH (simples, client-side — suficiente para uso interno)
+// 4. AUTH — sessão real do GAMA Hub via Supabase Auth
 // ----------------------------------------------------------
-window.doLogin = () => {
-  const u = document.getElementById('loginUser').value;
-  const p = document.getElementById('loginPass').value;
-  if (u === ADMIN_USER && p === ADMIN_PASS) {
-    document.getElementById('loginScreen').style.display = 'none';
-    document.getElementById('app').classList.add('visible');
-    iniciarListeners();
-  } else {
-    document.getElementById('loginError').textContent = 'Usuário ou senha incorretos.';
+window.doLogin = async () => {
+  const email = document.getElementById('loginUser').value.trim();
+  const pass  = document.getElementById('loginPass').value;
+  const { error } = await supabase.auth.signInWithPassword({ email, password: pass });
+  if (error) {
+    document.getElementById('loginError').textContent = 'Email ou senha incorretos.';
+    return;
   }
+  document.getElementById('loginScreen').style.display = 'none';
+  document.getElementById('app').classList.add('visible');
+  iniciarListeners();
 };
 
-window.doLogout = () => {
-  if (unsubProdutos)   unsubProdutos();
-  if (unsubCategorias) unsubCategorias();
+window.doLogout = async () => {
+  if (realtimeChannel) supabase.removeChannel(realtimeChannel);
+  await supabase.auth.signOut();
   document.getElementById('loginScreen').style.display = 'flex';
   document.getElementById('app').classList.remove('visible');
   document.getElementById('loginUser').value = '';
@@ -454,67 +421,93 @@ window.doLogout = () => {
 };
 
 // ----------------------------------------------------------
-// 5. FIREBASE — listeners em tempo real
+// 5. SUPABASE — carrega dados e escuta mudanças em tempo real
 // ----------------------------------------------------------
 function setFirebaseStatus(ok) {
   const dot   = document.getElementById('firebaseDot');
   const label = document.getElementById('firebaseLabel');
-  if (ok) { dot.className='firebase-dot connected'; label.textContent='Firebase conectado'; }
+  if (ok) { dot.className='firebase-dot connected'; label.textContent='Supabase conectado'; }
   else     { dot.className='firebase-dot error';     label.textContent='Erro de conexão'; }
 }
 
-function iniciarListeners() {
-  // Produtos
-  const qP = query(collection(db, "produtos"), orderBy("code"));
-  unsubProdutos = onSnapshot(qP, (snap) => {
-    catalog = snap.docs.map(d => ({ firestoreId: d.id, ...d.data() }));
-    setFirebaseStatus(true);
-    render();
-  }, () => setFirebaseStatus(false));
+function mapRow(row) {
+  return { code: row.codigo, name: row.nome, category: row.categoria, price: row.preco, qty: row.quantidade_estoque, image: row.imagem_url };
+}
 
-  // Categorias
-  unsubCategorias = onSnapshot(collection(db, "categorias"), (snap) => {
-    categories = snap.docs.map(d => d.data().nome).sort();
-    renderCatList();
-    renderAdminCatFilter();
-    fillCategorySelect();
-  });
+async function carregarProdutos() {
+  const { data, error } = await supabase.from("casagama_produtos").select("*").order("codigo");
+  if (error) { setFirebaseStatus(false); return; }
+  catalog = data.map(mapRow);
+  setFirebaseStatus(true);
+  render();
+}
+
+async function carregarCategorias() {
+  const { data, error } = await supabase.from("casagama_categorias").select("*").order("nome");
+  if (error) return;
+  categories = data.map(c => c.nome);
+  renderCatList();
+  renderAdminCatFilter();
+  fillCategorySelect();
+}
+
+function iniciarListeners() {
+  carregarProdutos();
+  carregarCategorias();
+  realtimeChannel = supabase
+    .channel('admin-casagama')
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'casagama_produtos' }, () => carregarProdutos())
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'casagama_categorias' }, () => carregarCategorias())
+    .subscribe();
 }
 
 // ----------------------------------------------------------
 // 6. CRUD — Produtos
 // ----------------------------------------------------------
 async function salvarProduto(produto) {
-  // Usa o código interno como ID do documento — garante unicidade
-  const ref = doc(db, "produtos", produto.code);
-  await setDoc(ref, {
-    code:     produto.code,
-    name:     produto.name,
-    category: produto.category,
-    price:    parseFloat(produto.price),
-    qty:      parseInt(produto.qty),
-    image:    produto.image || '',
-    atualizadoEm: serverTimestamp()
-  }, { merge: true });
+  const { error } = await supabase.from("casagama_produtos").upsert({
+    codigo:             produto.code,
+    nome:               produto.name,
+    categoria:          produto.category,
+    preco:              parseFloat(produto.price),
+    quantidade_estoque: parseInt(produto.qty),
+    imagem_url:         produto.image || '',
+    ativo:              true,
+    atualizado_em:      new Date().toISOString()
+  }, { onConflict: 'codigo' });
+  if (error) throw error;
 }
 
 async function atualizarQtd(code, novaQtd) {
-  await updateDoc(doc(db, "produtos", code), { qty: novaQtd, atualizadoEm: serverTimestamp() });
+  const { error } = await supabase.from("casagama_produtos")
+    .update({ quantidade_estoque: novaQtd, atualizado_em: new Date().toISOString() })
+    .eq("codigo", code);
+  if (error) throw error;
 }
 
 async function excluirProduto(code) {
-  await deleteDoc(doc(db, "produtos", code));
+  const { error } = await supabase.from("casagama_produtos").delete().eq("codigo", code);
+  if (error) throw error;
 }
 
 // ----------------------------------------------------------
 // 7. CRUD — Categorias
 // ----------------------------------------------------------
+function slugify(nome) {
+  return nome.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 async function adicionarCategoria(nome) {
-  await setDoc(doc(db, "categorias", nome), { nome, criadoEm: serverTimestamp() });
+  const { error } = await supabase.from("casagama_categorias").insert({ nome, slug: slugify(nome) });
+  if (error) throw error;
 }
 
 async function excluirCategoria(nome) {
-  await deleteDoc(doc(db, "categorias", nome));
+  const { error } = await supabase.from("casagama_categorias").delete().eq("nome", nome);
+  if (error) throw error;
 }
 
 // ----------------------------------------------------------
@@ -757,7 +750,7 @@ window.showSection = (id) => {
   const titles = { dashboard:'Dashboard', produtos:'Produtos', categorias:'Categorias', configuracoes:'Configurações' };
   document.getElementById('pageTitle').textContent = titles[id];
   closeSidebar();
-  if (id==='configuracoes') loadConfig();
+  if (id==='configuracoes') showAccountEmail();
 };
 
 window.toggleSidebar = () => { document.getElementById('sidebar').classList.toggle('open'); document.getElementById('sidebarOverlay').classList.toggle('show'); };
@@ -766,164 +759,10 @@ window.closeSidebar  = () => { document.getElementById('sidebar').classList.remo
 // ----------------------------------------------------------
 // 13. CONFIGURAÇÕES
 // ----------------------------------------------------------
-async function loadConfig() {
-  // Por simplicidade, o WA fica em Firestore
-  try {
-    const { getDoc } = await import("https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js");
-    const snap = await getDoc(doc(db, "configuracoes", "whatsapp"));
-    document.getElementById('waNumber').value = snap.exists() ? snap.data().valor : '';
-  } catch {}
+async function showAccountEmail() {
+  const { data } = await supabase.auth.getUser();
+  document.getElementById('accountEmail').textContent = data?.user?.email || '—';
 }
-
-window.saveWa = async () => {
-  const wa = document.getElementById('waNumber').value.trim();
-  try {
-    await setDoc(doc(db, "configuracoes", "whatsapp"), { valor: wa, atualizadoEm: serverTimestamp() });
-    showToast('Número salvo!');
-  } catch { showToast('Erro ao salvar',true); }
-};
-
-window.changePassword = () => {
-  const np = document.getElementById('newPass').value;
-  const cp = document.getElementById('confirmPass').value;
-  if (np.length < 6)  { showToast('Senha muito curta (mínimo 6)',true); return; }
-  if (np !== cp)      { showToast('Senhas não coincidem',true); return; }
-  ADMIN_PASS = np;
-  document.getElementById('newPass').value = document.getElementById('confirmPass').value = '';
-  showToast('Senha alterada! Guarde-a com segurança.');
-};
-
-// ----------------------------------------------------------
-// 14. IMPORTAR CATÁLOGO PADRÃO
-// ----------------------------------------------------------
-window.importDefaultCatalog = async () => {
-  if (!confirm('Isso vai adicionar os 88 produtos padrão ao Firestore. Continuar?')) return;
-  const btn = document.getElementById('importBtn');
-  btn.innerHTML = '<span class="spinner" style="border-color:rgba(107,104,68,.4);border-top-color:var(--moss)"></span> Importando...';
-  btn.disabled = true;
-
-  const defaultProducts = [
-    {code:'CG-PR-001',name:'Porta-Retrato em MDF - 20x25',category:'Porta-retratos',price:68.73,qty:6,image:''},
-    {code:'CG-LC-001',name:'Livro-Caixa MDF/Linho - P',category:'Livros-caixa',price:103.41,qty:1,image:''},
-    {code:'CG-LC-002',name:'Livro-Caixa MDF/Linho - M',category:'Livros-caixa',price:103.41,qty:1,image:''},
-    {code:'CG-LC-003',name:'Livro-Caixa MDF/Linho - G',category:'Livros-caixa',price:109.59,qty:1,image:''},
-    {code:'CG-LC-004',name:'Livro-Caixa MDF/Linho - GG',category:'Livros-caixa',price:103.41,qty:1,image:''},
-    {code:'CG-CO-001',name:'Colar Decorativo em Madeira',category:'Colares-Esculturas',price:66.33,qty:1,image:''},
-    {code:'CG-ES-001',name:'Lupa em Polirresina',category:'Esculturas',price:91.05,qty:1,image:''},
-    {code:'CG-LC-005',name:'Livro-Caixa MDF/Linho - PP',category:'Livros-caixa',price:91.05,qty:1,image:''},
-    {code:'CG-LC-006',name:'Livro-Caixa MDF/Linho - XG',category:'Livros-caixa',price:115.77,qty:1,image:''},
-    {code:'CG-VA-001',name:'Vaso em Vidro - P',category:'Vasos',price:78.75,qty:1,image:''},
-    {code:'CG-ES-002',name:'Escultura Ouriço Polirresina',category:'Esculturas',price:72.51,qty:1,image:''},
-    {code:'CG-ES-003',name:'Escultura Elos Polirresina - G',category:'Esculturas',price:140.49,qty:1,image:''},
-    {code:'CG-BD-001',name:'Bandeja em Cerâmica',category:'Bandejas',price:95.05,qty:2,image:''},
-    {code:'CG-PR-002',name:'Porta-Retrato Poliest./Vidro 15x20',category:'Porta-retratos',price:48.22,qty:4,image:''},
-    {code:'CG-ES-004',name:'Escultura Busto Polirresina',category:'Esculturas',price:128.13,qty:1,image:''},
-    {code:'CG-ES-005',name:'Escultura em Polirresina',category:'Esculturas',price:124.46,qty:1,image:''},
-    {code:'CG-VA-002',name:'Vaso em Vidro - Mini',category:'Vasos',price:56.26,qty:1,image:''},
-    {code:'CG-CX-001',name:'Kit Caixas MDF/PU - 2 Pcs',category:'Caixas',price:191.47,qty:1,image:''},
-    {code:'CG-KT-001',name:'Kit Ampulhetas Vidro 3 Pcs - A',category:'Kits',price:91.05,qty:1,image:''},
-    {code:'CG-KB-001',name:'Kit Cimento Banheiro - 4 Pcs',category:'Kits Banheiro',price:205.71,qty:1,image:''},
-    {code:'CG-EM-001',name:'Escultura em Metal - G',category:'Esculturas Metal',price:157.82,qty:1,image:''},
-    {code:'CG-ES-006',name:'Escultura Mulher Polirresina - P',category:'Esculturas',price:78.69,qty:1,image:''},
-    {code:'CG-VA-003',name:'Vaso em Polirresina - P',category:'Vasos',price:68.22,qty:1,image:''},
-    {code:'CG-VA-004',name:'Vaso em Polirresina - M',category:'Vasos',price:76.87,qty:1,image:''},
-    {code:'CG-VA-005',name:'Vaso em Vidro - M',category:'Vasos',price:101.01,qty:1,image:''},
-    {code:'CG-VA-006',name:'Vaso em Vidro - G',category:'Vasos',price:103.47,qty:1,image:''},
-    {code:'CG-CO-002',name:'Colar Decorativo Madeira - P',category:'Colares-Esculturas',price:55.24,qty:1,image:''},
-    {code:'CG-VA-008',name:'Vaso em Vidro - Alto',category:'Vasos',price:91.11,qty:1,image:''},
-    {code:'CG-VA-007',name:'Vaso em Vidro - Cônico',category:'Vasos',price:88.65,qty:1,image:''},
-    {code:'CG-KT-002',name:'Kit Ampulhetas Vidro 3 Pcs - B',category:'Kits',price:91.05,qty:1,image:''},
-    {code:'CG-CX-002',name:'Caixa em Polirresina',category:'Caixas',price:78.75,qty:1,image:''},
-    {code:'CG-EM-002',name:'Escultura em Metal - P',category:'Esculturas Metal',price:81.84,qty:1,image:''},
-    {code:'CG-ES-007',name:'Escultura Corrente Rattan',category:'Esculturas',price:152.85,qty:1,image:''},
-    {code:'CG-ES-008',name:'Escultura Elos Polirresina - P',category:'Esculturas',price:60.21,qty:1,image:''},
-    {code:'CG-PR-003',name:'Porta-Retrato 10x15 - A',category:'Porta-retratos',price:46.48,qty:4,image:''},
-    {code:'CG-PR-004',name:'Porta-Retrato 20x25 - A',category:'Porta-retratos',price:56.26,qty:4,image:''},
-    {code:'CG-BD-002',name:'Bandeja em Fibra Natural',category:'Bandejas',price:199.78,qty:1,image:''},
-    {code:'CG-ES-009',name:'Escultura Nó em Vidro',category:'Esculturas',price:128.71,qty:1,image:''},
-    {code:'CG-ES-010',name:'Aparadores de Livros Polirresina',category:'Esculturas',price:140.49,qty:1,image:''},
-    {code:'CG-OR-001',name:'Lixeira MDF/PU - 11 Litros',category:'Organização',price:276.45,qty:1,image:''},
-    {code:'CG-VA-009',name:'Vaso em Vidro - Transp. G',category:'Vasos',price:125.71,qty:1,image:''},
-    {code:'CG-VA-010',name:'Vaso em Vidro - Transp. P',category:'Vasos',price:75.66,qty:1,image:''},
-    {code:'CG-KT-003',name:'Kit Minivasos Vidro 3 Pcs - A',category:'Kits',price:78.69,qty:1,image:''},
-    {code:'CG-KT-004',name:'Kit Minivasos Vidro 3 Pcs - B',category:'Kits',price:62.67,qty:1,image:''},
-    {code:'CG-VA-011',name:'Vaso em Vidro - Âmbar G',category:'Vasos',price:150.41,qty:1,image:''},
-    {code:'CG-VA-012',name:'Vaso em Vidro - Âmbar GG',category:'Vasos',price:193.67,qty:1,image:''},
-    {code:'CG-VA-013',name:'Vaso em Vidro - Fumê P',category:'Vasos',price:98.50,qty:1,image:''},
-    {code:'CG-VA-014',name:'Vaso em Vidro - Fumê M',category:'Vasos',price:115.81,qty:1,image:''},
-    {code:'CG-VA-015',name:'Pote Decorativo em Cerâmica',category:'Vasos',price:81.33,qty:1,image:''},
-    {code:'CG-VA-016',name:'Vaso em Vidro - Cilíndrico',category:'Vasos',price:88.63,qty:1,image:''},
-    {code:'CG-VA-017',name:'Vaso em Cerâmica - G',category:'Vasos',price:129.45,qty:1,image:''},
-    {code:'CG-VA-018',name:'Vaso em Cerâmica - M',category:'Vasos',price:110.91,qty:1,image:''},
-    {code:'CG-EM-003',name:'Escultura Asterisco em Metal',category:'Esculturas Metal',price:89.85,qty:1,image:''},
-    {code:'CG-VA-019',name:'Vaso em Cerâmica - P Terracota',category:'Vasos',price:75.66,qty:1,image:''},
-    {code:'CG-VA-020',name:'Vaso em Cerâmica - P Bege',category:'Vasos',price:75.66,qty:1,image:''},
-    {code:'CG-KT-005',name:'Kit Bandejas Metal - 2 Pcs',category:'Kits',price:251.73,qty:1,image:''},
-    {code:'CG-ES-011',name:'Escultura Face Polirresina - P',category:'Esculturas',price:66.38,qty:1,image:''},
-    {code:'CG-ES-012',name:'Escultura Face Polirresina - M',category:'Esculturas',price:96.04,qty:1,image:''},
-    {code:'CG-BD-003',name:'Bandeja em Polirresina',category:'Bandejas',price:177.57,qty:1,image:''},
-    {code:'CG-BD-004',name:'Centro de Mesa em Polirresina',category:'Bandejas',price:214.65,qty:1,image:''},
-    {code:'CG-PR-005',name:'Porta-Retrato 10x15 - B',category:'Porta-retratos',price:50.24,qty:4,image:''},
-    {code:'CG-PR-006',name:'Porta-Retrato 15x20 - B',category:'Porta-retratos',price:54.43,qty:4,image:''},
-    {code:'CG-PR-007',name:'Porta-Retrato 10x15 - C',category:'Porta-retratos',price:41.94,qty:4,image:''},
-    {code:'CG-PR-008',name:'Porta-Retrato 15x20 - C',category:'Porta-retratos',price:48.57,qty:4,image:''},
-    {code:'CG-CX-003',name:'Caixa MDF/PU - P',category:'Caixas',price:103.46,qty:1,image:''},
-    {code:'CG-CX-004',name:'Caixa MDF/PU - M',category:'Caixas',price:133.11,qty:1,image:''},
-    {code:'CG-CX-005',name:'Caixa MDF/PU - P2',category:'Caixas',price:102.83,qty:1,image:''},
-    {code:'CG-CX-006',name:'Caixa MDF/PU - M2',category:'Caixas',price:111.48,qty:1,image:''},
-    {code:'CG-PR-009',name:'Porta-Retrato 10x15 - D',category:'Porta-retratos',price:53.78,qty:4,image:''},
-    {code:'CG-PR-010',name:'Porta-Retrato 15x20 - D',category:'Porta-retratos',price:60.79,qty:4,image:''},
-    {code:'CG-CO-003',name:'Colar Decorativo Madeira - M',category:'Colares-Esculturas',price:66.33,qty:1,image:''},
-    {code:'CG-LC-007',name:'Livro-Caixa MDF/PU - P',category:'Livros-caixa',price:103.41,qty:1,image:''},
-    {code:'CG-LC-008',name:'Livro-Caixa MDF/PU - M',category:'Livros-caixa',price:115.77,qty:1,image:''},
-    {code:'CG-CX-007',name:'Caixa MDF/PU - P3',category:'Caixas',price:91.11,qty:1,image:''},
-    {code:'CG-ES-013',name:'Escultura Face Polirresina - G',category:'Esculturas',price:76.29,qty:1,image:''},
-    {code:'CG-ES-014',name:'Escultura Mulher Polirresina - G',category:'Esculturas',price:146.67,qty:1,image:''},
-    {code:'CG-PR-011',name:'Porta-Retrato 10x15 - E',category:'Porta-retratos',price:53.81,qty:4,image:''},
-    {code:'CG-PR-012',name:'Porta-Retrato 15x20 - E',category:'Porta-retratos',price:60.79,qty:4,image:''},
-    {code:'CG-PR-013',name:'Porta-Retrato 10x15 - F',category:'Porta-retratos',price:53.81,qty:4,image:''},
-    {code:'CG-PR-014',name:'Porta-Retrato 15x20 - F',category:'Porta-retratos',price:60.79,qty:4,image:''},
-    {code:'CG-BD-005',name:'Bandeja em Mármore',category:'Bandejas',price:128.13,qty:1,image:''},
-    {code:'CG-OR-002',name:'Lixeira em Madeira - 10 Litros',category:'Organização',price:253.09,qty:1,image:''},
-    {code:'CG-EM-004',name:'Escultura Corrente em Metal',category:'Esculturas Metal',price:152.85,qty:1,image:''},
-    {code:'CG-PR-015',name:'Porta-Retrato Duplo Madeira 10x15',category:'Porta-retratos',price:115.77,qty:1,image:''},
-    {code:'CG-ES-015',name:'Escultura Pessoa Polirresina - A',category:'Esculturas',price:121.95,qty:1,image:''},
-    {code:'CG-ES-016',name:'Escultura Pessoa Polirresina - B',category:'Esculturas',price:121.95,qty:1,image:''},
-    {code:'CG-KT-006',name:'Kit Vasos Cerâmica 3 Pcs - A',category:'Kits',price:227.01,qty:1,image:''},
-    {code:'CG-ES-017',name:'Escultura Pessoas Polirresina',category:'Esculturas',price:165.21,qty:1,image:''},
-    {code:'CG-ES-018',name:'Escultura Pessoa Polirresina - C',category:'Esculturas',price:140.49,qty:1,image:''},
-    {code:'CG-ES-019',name:'Escultura Pessoa Polirresina - D',category:'Esculturas',price:121.95,qty:1,image:''},
-    {code:'CG-KB-002',name:'Kit Cerâmica Banheiro - 3 Pcs',category:'Kits Banheiro',price:140.56,qty:1,image:''},
-    {code:'CG-KT-007',name:'Kit Vasos Cerâmica 3 Pcs - B',category:'Kits',price:202.29,qty:1,image:''},
-  ];
-
-  // Extrai categorias únicas dos produtos
-  const cats = [...new Set(defaultProducts.map(p=>p.category))];
-
-  try {
-    // Usa writeBatch para performance (máx 500 docs por batch)
-    let batch = writeBatch(db);
-    let count = 0;
-
-    for (const p of defaultProducts) {
-      batch.set(doc(db,"produtos",p.code), { ...p, atualizadoEm: serverTimestamp() });
-      count++;
-      if (count===490) { await batch.commit(); batch=writeBatch(db); count=0; }
-    }
-
-    for (const c of cats) {
-      batch.set(doc(db,"categorias",c), { nome:c, criadoEm:serverTimestamp() });
-    }
-
-    await batch.commit();
-    showToast('88 produtos importados com sucesso!');
-  } catch(e) {
-    showToast('Erro na importação: '+e.message, true);
-  } finally {
-    btn.innerHTML = 'Importar catálogo padrão';
-    btn.disabled = false;
-  }
-};
 
 // ----------------------------------------------------------
 // 15. EXPORTAR CSV
